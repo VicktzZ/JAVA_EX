@@ -1,7 +1,12 @@
-public class Ex1 { // Criação da classe "Ex1"
-    public static void main(String[] args) { // Inicialização do método "main".
-        int percurso = 300; // Inicialização da varíavel "percurso" do tipo inteiro
-        int combustivel = 12; // Inicialização da varíavel "combustivel" do tipo inteiro
-        System.out.println(percurso / combustivel); // Saída: 25
+/**
+ * Ex1
+ */
+public class Ex1 {
+    public static void main(String[] args) {
+        int litro = 12; 
+
+        int percurso = 300;
+        System.out.println( percurso / litro);
+        
     }
 }
